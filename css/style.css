@@ -5,12 +5,16 @@
 
 html, body{
     height: 100%;
+    background-color: antiquewhite;
+    align-items: center;
 }
 
 h1{
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: center;
+    font-size: 45px;
 }
 
 form {
@@ -21,13 +25,36 @@ form {
     padding: 30px;
     border: 1px solid #CCC;
     border-radius: 5px;
+    background-color: #add;
 }
-
-span{
-    
-}
-
+/*
 label{
-    /*padding: 20px 20px 20px 20px;*/
-    /*position: relative;*/
+    display: block;
+    padding-bottom: 15px;
+}
+
+/*input{
+    margin: 0 10px;
+}
+.linha{
+    outline: 0;
+}*/
+
+label {
+    display: block;
+}
+  
+input {
+    padding: .15rem .3rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+  
+.primeiro {
+    margin: 0;
+}
+  
+.segundo input {
+    outline: 0;
 }
