@@ -27,11 +27,6 @@ form {
     border-radius: 5px;
     background-color: #add;
 }
-/*
-label{
-    display: block;
-    padding-bottom: 15px;
-}
 
 /*input{
     margin: 0 10px;
@@ -42,6 +37,7 @@ label{
 
 label {
     display: block;
+    padding-bottom: 10px;
 }
   
 input {
