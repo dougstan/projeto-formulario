@@ -30,10 +30,14 @@ form {
 
 /*input{
     margin: 0 10px;
-}
-.linha{
-    outline: 0;
 }*/
+.linha{
+    display: flex;
+}
+
+.numero{
+    padding-left: 30px;
+}
 
 label {
     display: block;
@@ -41,16 +45,9 @@ label {
 }
   
 input {
+    display: block;
     padding: .15rem .3rem;
     border: 1px solid #c5c5c5;
     border-radius: 3px;
     margin-bottom: 15px;
-}
-  
-.primeiro {
-    margin: 0;
-}
-  
-.segundo input {
-    outline: 0;
 }
