@@ -49,6 +49,7 @@ label {
   
 input {
     display: block;
+    width: 210px;
     padding: .30rem .5rem;
     border: 1px solid #c5c5c5;
     border-radius: 5px;
@@ -59,6 +60,14 @@ input {
     width: 95%;
 }
 
-#limpar{
-    margin-left: 30px;
+#limpar, #enviar{
+    margin-left: 22px;
 }
+/*
+#caixa_end{
+    width: 150%;
+}
+
+#endereco{
+    width: 150%;
+}*/
