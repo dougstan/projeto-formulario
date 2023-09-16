@@ -63,11 +63,19 @@ input {
 #limpar, #enviar{
     margin-left: 22px;
 }
-/*
+
 #caixa_end{
-    width: 150%;
+    width: 200%;
+}
+
+#caixa_num{
+    width: 30%;
 }
 
 #endereco{
-    width: 150%;
-}*/
+    width: 100%;
+}
+
+#numero{
+    width: 60%;
+}
